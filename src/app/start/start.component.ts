@@ -18,7 +18,7 @@ submitStart(catName){
   } else if (this.catId===3){
     newCat = new Cat("UggLee", catName, 5, 5,4, "https://c1.staticflickr.com/3/2221/1574487620_2d7f46e28c_b.jpg");
   } else{
-    alert("Shouldn't have gotten here!");
+    alert("Select your Champion before beginning!");
   }
   console.log(newCat);
   return newCat;
