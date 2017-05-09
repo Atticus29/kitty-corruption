@@ -1,0 +1,10 @@
+{
+  "scenarios": [{
+    "title": "Wise cat encounter",
+    "description": "You come across another cat in the yard. What do you do?",
+    "optionOne": "Talk to her!",
+    "optionTwo": "Stranger danger! Go back inside!",
+    "optionThree": "Fight",
+    "image": "http://static.fjcdn.com/pictures/Sensai+cat+he+is+wise_e6dcb0_3418694.jpg"
+    }]
+}
