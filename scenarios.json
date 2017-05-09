@@ -5,7 +5,10 @@
     "optionOne": "Talk to her!",
     "optionTwo": "Stranger danger! Go back inside!",
     "optionThree": "Fight",
-    "image": "http://static.fjcdn.com/pictures/Sensai+cat+he+is+wise_e6dcb0_3418694.jpg"
+    "image": "http://static.fjcdn.com/pictures/Sensai+cat+he+is+wise_e6dcb0_3418694.jpg",
+    "optionOnePoints": [-2,0,3],
+    "optionTwoPoints": [1,0,0],
+    "optionThreePoints": [-1,1,0]
     },
     {
       "title": "You're feeling frisky and disobedient...",
@@ -13,7 +16,10 @@
       "optionOne": "Totally scratch",
       "optionTwo": "Now is not the time to act out",
       "optionThree": "Maybe just the toilet paper...",
-      "image": "http://1.design-milk.com/images/2014/04/Gus-Modern-1-Switch-Sofa-Laurentian-Citrine1.jpg"
+      "image": "http://1.design-milk.com/images/2014/04/Gus-Modern-1-Switch-Sofa-Laurentian-Citrine1.jpg",
+      "optionOnePoints": [-2,3,0],
+      "optionTwoPoints": [1,0,0],
+      "optionThreePoints": [-1,1,0]
     },
     {
       "title": "Snuggle",
@@ -21,7 +27,10 @@
       "optionOne": "SNUGGLE!",
       "optionTwo": "Maybe just a small snuggle",
       "optionThree": "Master is gross. We will never snuggle those who enslave us.",
-      "image": "https://cdn.pixabay.com/photo/2016/01/24/17/27/sleeping-1159279_960_720.jpg"
+      "image": "https://cdn.pixabay.com/photo/2016/01/24/17/27/sleeping-1159279_960_720.jpg",
+      "optionOnePoints": [2,0,0],
+      "optionTwoPoints": [1,0,0],
+      "optionThreePoints": [-1,0,0]
     }
 
   ]
