@@ -1,0 +1,71 @@
+<div class="container">
+  <div id="instructions">
+    <ol>
+      <li>Select your cat champion.</li>
+      <li>Choose your real name.</li>
+      <li>Boost your stats by making the right choices.</li>
+      <li>When two of your stats reach 10, you are ready to attack the human.</li>
+    </ol>
+  </div>
+  <!-- <fieldset> -->
+    <div class="row">
+      <legend>Select your champion</legend>
+      <div class="col s4">
+        <input  (click)="setCat(1)" name="group1" class="with-gap" type="radio" id="test1" />
+        <label for="test1">
+          <div class="card">
+            <div class="card-image">
+              <img src="../../assets/img/evil-cat.JPG">
+              <span class="card-title">Lucifer</span>
+            </div>
+            <div class="card-content">
+              <p>Trust low</p>
+              <p>Strength high</p>
+              <p>Intel high</p>
+            </div>
+          </div>
+        </label>
+      </div>
+      <div class="col s4">
+        <input (click)="setCat(2)" name="group1" class="with-gap" type="radio" id="test2" />
+        <label for="test2">
+          <div class="card">
+            <div class="card-image">
+              <img src="../../assets/img/cute-cat.jpg">
+              <span class="card-title">Puff</span>
+            </div>
+            <div class="card-content">
+              <p>Trust high</p>
+              <p>Strength low</p>
+              <p>Intel low</p>
+            </div>
+          </div>
+        </label>
+      </div>
+      <div class="col s4">
+        <input (click)="setCat(3)" class="with-gap" name="group1" type="radio" id="test3"  />
+        <label for="test3">
+          <div class="card">
+            <div class="card-image">
+              <img src="../../assets/img/ugly-cat.jpeg">
+              <span class="card-title">UggLee</span>
+            </div>
+            <div class="card-content">
+              <p>Trust medium</p>
+              <p>Strength meduim</p>
+              <p>Intel medium</p>
+            </div>
+          </div>
+        </label>
+      </div>
+    </div>
+  <!-- </fieldset> -->
+  <div class="row">
+    <div class="input-field col s12">
+      <input #newName placeholder="Chosen Name:" type="text" class="validate">
+      <label ></label>
+    </div>
+</div>
+<a (click)="submitStart(newName.value)" class="waves-effect waves-light btn">Begin</a>
+
+</div>
