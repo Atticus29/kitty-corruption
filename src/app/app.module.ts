@@ -9,6 +9,8 @@ import { DisplayScenarioComponent } from './display-scenario/display-scenario.co
 import { masterFirebaseConfig} from './api-keys';
 import {AngularFireModule} from 'angularfire2';
 import {AngularFireDatabaseModule} from 'angularfire2/database';
+import {ScenarioService} from './scenario.service';
+import {CatService} from './cat.service';
 
 export const firebaseConfig = {
   apiKey: masterFirebaseConfig.apiKey,
@@ -31,7 +33,7 @@ export const firebaseConfig = {
     AngularFireModule.initializeApp(firebaseConfig),
     AngularFireDatabaseModule
   ],
-  providers: [],
+  providers: [ScenarioService, CatService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
