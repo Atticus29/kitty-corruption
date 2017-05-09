@@ -1,13 +1,16 @@
 import { Component, OnInit } from '@angular/core';
+import {Router} from '@angular/router';
 import {Cat} from '../cat.model';
+import  {ScenarioService} from '../scenario.service';
 
 @Component({
   selector: 'app-start',
   templateUrl: './start.component.html',
-  styleUrls: ['./start.component.css']
+  styleUrls: ['./start.component.css'],
+  providers: [ScenarioService]
 })
 export class StartComponent implements OnInit {
-  // chosenName: string = null;
+  catChampion = null;
   catId: number = null;
 submitStart(catName){
   let newCat = null;
@@ -20,15 +23,16 @@ submitStart(catName){
   } else{
     alert("Select your Champion before beginning!");
   }
-  console.log(newCat);
-  return newCat;
+  this.catChampion = newCat;
 }
 setCat(number: number){
   this.catId = number;
 }
-  constructor() { }
+  constructor(private router: Router, private scenarioService: ScenarioService) { }
 
   ngOnInit() {
   }
-
+goToScenario(scenarioKey: number){
+  this.router.navigate(['scenarios', scenarioKey] );
+}
 }

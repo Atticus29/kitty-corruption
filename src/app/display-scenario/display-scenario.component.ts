@@ -11,11 +11,12 @@ import{FirebaseListObservable} from 'angularfire2/database';
   providers: [ScenarioService]
 })
 export class DisplayScenarioComponent implements OnInit {
-  scenarios: FirebaseListObservable<any[]>;
+  scenarioToDisplay;
+
   constructor(private router: Router, private scenarioService: ScenarioService) { }
 
   ngOnInit() {
-    this.scenarios = this.scenarioService.getScenarios();
+    this.scenarioToDisplay = this.scenarioService.getScenarioById("0");
   }
 
 }

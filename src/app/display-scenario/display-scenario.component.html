@@ -1,4 +1,20 @@
-<h1>Test</h1>
-<div *ngFor="let scenario of scenarios | async">
-  <h2>{{scenario.title}}</h2>
+
+  <div class="row">
+  <div class="col s12 m7">
+    <div class="card large">
+      <div class="card-image">
+        <img src="{{(scenarioToDisplay | async)?.image}}">
+        <span class="card-title">{{(scenarioToDisplay | async)?.title}}</span>
+      </div>
+      <div class="card-content">
+        <p>{{(scenarioToDisplay | async)?.description}}</p>
+      </div>
+      <div class="card-action">
+        <a>{{(scenarioToDisplay | async)?.optionOne}}</a>
+        <a>{{(scenarioToDisplay | async)?.optionTwo}}</a>
+        <a>{{(scenarioToDisplay | async)?.optionThree}}</a>
+
+      </div>
+    </div>
+  </div>
 </div>

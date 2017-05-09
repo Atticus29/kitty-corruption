@@ -13,7 +13,9 @@ export class ScenarioService {
   getScenarios(){
     return this.scenarios;
   }
-
+getScenarioById(id: string){
+  return this.database.object('scenarios/' + id);
+}
 
 
 }

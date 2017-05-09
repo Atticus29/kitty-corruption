@@ -6,5 +6,23 @@
     "optionTwo": "Stranger danger! Go back inside!",
     "optionThree": "Fight",
     "image": "http://static.fjcdn.com/pictures/Sensai+cat+he+is+wise_e6dcb0_3418694.jpg"
-    }]
+    },
+    {
+      "title": "You're feeling frisky and disobedient...",
+      "description": "You know scratching the nice, new furniture can make you strong, but it may also lose you favor with the master of the house. To scratch or not to scratch?",
+      "optionOne": "Totally scratch",
+      "optionTwo": "Now is not the time to act out",
+      "optionThree": "Maybe just the toilet paper...",
+      "image": "http://1.design-milk.com/images/2014/04/Gus-Modern-1-Switch-Sofa-Laurentian-Citrine1.jpg"
+    },
+    {
+      "title": "Snuggle",
+      "description": "Now is an opportunity to make it good with the master. Should you do some snuggling to gain their trust?",
+      "optionOne": "SNUGGLE!",
+      "optionTwo": "Maybe just a small snuggle",
+      "optionThree": "Master is gross. We will never snuggle those who enslave us.",
+      "image": "https://cdn.pixabay.com/photo/2016/01/24/17/27/sleeping-1159279_960_720.jpg"
+    }
+
+  ]
 }
