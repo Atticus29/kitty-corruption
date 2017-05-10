@@ -17,14 +17,14 @@ getScenarioById(id: string){
   return this.database.object('scenarios/' + id);
 }
 
-updateScenario(scenario: Scenario){
+updateScenario(scenario){
   let scenarioInFirebase = this.getScenarioById(scenario.$key);
   scenarioInFirebase.update({title: scenario.title,
                             description: scenario.description,
                             optionOne: scenario.optionOne,
                             optionTwo: scenario.optionTwo,
                             optionThree: scenario.optionThree,
-                            image: scenario.imageURL});
+                            image: scenario.image});
 }
 
 
