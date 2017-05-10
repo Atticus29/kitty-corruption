@@ -12,6 +12,7 @@ import {AngularFireDatabaseModule} from 'angularfire2/database';
 import {ScenarioService} from './scenario.service';
 import {CatService} from './cat.service';
 import { DisplayStatsComponent } from './display-stats/display-stats.component';
+import { DisplayAttackOutcomeComponent } from './display-attack-outcome/display-attack-outcome.component';
 
 export const firebaseConfig = {
   apiKey: masterFirebaseConfig.apiKey,
@@ -25,7 +26,8 @@ export const firebaseConfig = {
     AppComponent,
     StartComponent,
     DisplayScenarioComponent,
-    DisplayStatsComponent
+    DisplayStatsComponent,
+    DisplayAttackOutcomeComponent
   ],
   imports: [
     BrowserModule,

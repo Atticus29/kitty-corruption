@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import {CatService} from '../cat.service';
 import { Cat } from '../cat.model';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-display-stats',
@@ -10,12 +11,16 @@ import { Cat } from '../cat.model';
 export class DisplayStatsComponent implements OnInit {
   catToDisplay;
 
-  constructor(private catService: CatService) { }
+  constructor(private catService: CatService, private router: Router) { }
 
   ngOnInit() {
     this.catToDisplay = this.catService.catChampion;
 
     console.log(this.catToDisplay);
+  }
+
+  goToAttackOutcomePage(){
+    this.router.navigate(['human-attack']);
   }
 
 }

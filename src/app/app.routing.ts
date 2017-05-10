@@ -3,6 +3,7 @@ import { ModuleWithProviders }  from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { StartComponent } from './start/start.component';
 import { DisplayScenarioComponent } from './display-scenario/display-scenario.component';
+import { DisplayAttackOutcomeComponent} from './display-attack-outcome/display-attack-outcome.component'
 
 const appRoutes: Routes = [
 {
@@ -12,6 +13,10 @@ const appRoutes: Routes = [
 {
   path: 'scenarios/:id',
   component: DisplayScenarioComponent
+},
+{
+  path: 'human-attack',
+  component: DisplayAttackOutcomeComponent
 }
 ];
 
