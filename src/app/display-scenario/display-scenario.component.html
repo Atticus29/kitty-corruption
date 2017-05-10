@@ -11,8 +11,8 @@
       </div>
       <div class="card-action">
         <a (click)="optionSelected(1);">{{(scenarioToDisplay | async)?.optionOne}}</a>
-        <a>{{(scenarioToDisplay | async)?.optionTwo}}</a>
-        <a>{{(scenarioToDisplay | async)?.optionThree}}</a>
+        <a (click)="optionSelected(2);">{{(scenarioToDisplay | async)?.optionTwo}}</a>
+        <a (click)="optionSelected(3);">{{(scenarioToDisplay | async)?.optionThree}}</a>
       </div>
     </div>
   </div>
