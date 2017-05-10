@@ -3,7 +3,7 @@
   "description": "",
   "main": "",
   "license": "MIT",
-  "homepage": "",
+  "homepage": "https://github.com/stormihoebe/kitty-corruption-angular",
   "ignore": [
     "**/.*",
     "node_modules",

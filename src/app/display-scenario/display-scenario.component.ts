@@ -3,7 +3,8 @@ import {Scenario} from '../scenario.model';
 import { Router } from '@angular/router';
 import {ScenarioService} from '../scenario.service'
 import{FirebaseListObservable} from 'angularfire2/database';
-import {CatService} from '../cat.service'
+import {CatService} from '../cat.service';
+import {DisplayStatsComponent} from '../display-stats/display-stats.component'
 
 @Component({
   selector: 'app-display-scenario',
@@ -11,6 +12,7 @@ import {CatService} from '../cat.service'
   styleUrls: ['./display-scenario.component.css'],
   providers: []
 })
+
 export class DisplayScenarioComponent implements OnInit {
   scenarioToDisplay;
 
@@ -19,7 +21,6 @@ export class DisplayScenarioComponent implements OnInit {
 
   ngOnInit() {
     this.scenarioToDisplay = this.scenarioService.getScenarioById("0");
-    this.catService.getCat();
   }
 
   optionSelected(number: number){

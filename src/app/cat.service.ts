@@ -29,6 +29,4 @@ export class CatService {
      this.catId = number;
    }
 
-   getCat() {
-   }
 }
