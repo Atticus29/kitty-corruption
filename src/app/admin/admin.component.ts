@@ -24,6 +24,5 @@ export class AdminComponent implements OnInit {
   showEditFormClicked(scenario: Scenario) {
     this.editFormShowing = true;
     this.selectedScenarioParent = scenario;
-    console.log(this.editFormShowing);
   }
 }

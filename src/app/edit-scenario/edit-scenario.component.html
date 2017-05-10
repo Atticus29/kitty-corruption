@@ -23,6 +23,6 @@
             <input name="imageURL" [(ngModel)]="selectedScenario.imageURL" placeholder="Image URL: " id="imageURL" type="url" class="validate" required>
           </div>
       </div>
-      <a (click) = "submitChangesButtonClicked()" class="waves-effect waves-light btn">Submit</a>
+      <a (click) = "submitChangesButtonClicked(selectedScenario)" class="waves-effect waves-light btn">Submit</a>
     </form>
   </div>

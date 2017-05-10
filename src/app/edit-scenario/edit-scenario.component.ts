@@ -1,6 +1,7 @@
 import { Component, Input,  OnInit } from '@angular/core';
 import { ScenarioService } from '../scenario.service';
 import { AdminComponent } from '../admin/admin.component'
+import {Scenario} from '../scenario.model';
 @Component({
   selector: 'app-edit-scenario',
   templateUrl: './edit-scenario.component.html',
@@ -12,6 +13,10 @@ export class EditScenarioComponent implements OnInit {
   constructor(public scenarioService: ScenarioService) { }
 
   ngOnInit() {
+  }
+
+  submitChangesButtonClicked(scenarioToUpdate: Scenario){
+    this.scenarioService.updateScenario(scenarioToUpdate);
   }
 
 }
