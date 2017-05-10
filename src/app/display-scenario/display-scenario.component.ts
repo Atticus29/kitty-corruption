@@ -16,7 +16,7 @@ import {DisplayStatsComponent} from '../display-stats/display-stats.component'
 export class DisplayScenarioComponent implements OnInit {
   scenarioToDisplay;
 
-  constructor(private router: Router, private scenarioService: ScenarioService, private catService: CatService) {
+  constructor(public router: Router, public scenarioService: ScenarioService, public catService: CatService) {
   }
 
   ngOnInit() {

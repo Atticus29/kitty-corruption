@@ -10,7 +10,7 @@ import {CatService} from '../cat.service';
   styleUrls: ['./start.component.css']
 })
 export class StartComponent implements OnInit {
-  constructor(private router: Router, private scenarioService: ScenarioService, private catService: CatService) { }
+  constructor(public router: Router, public scenarioService: ScenarioService, public catService: CatService) { }
 
   ngOnInit() {
   }

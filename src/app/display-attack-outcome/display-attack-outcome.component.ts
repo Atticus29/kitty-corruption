@@ -14,7 +14,7 @@ export class DisplayAttackOutcomeComponent implements OnInit {
   outcomeDescription = "This shouldn't happen either";
   outcomeImage = "https://image.freepik.com/free-icon/question-mark_318-52837.jpg";
 
-  constructor(private catService: CatService, private router: Router) { }
+  constructor(public catService: CatService, public router: Router) { }
 
   ngOnInit() {
     this.catToDisplay = this.catService.catChampion;
