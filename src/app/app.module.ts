@@ -13,6 +13,7 @@ import {ScenarioService} from './scenario.service';
 import {CatService} from './cat.service';
 import { DisplayStatsComponent } from './display-stats/display-stats.component';
 import { DisplayAttackOutcomeComponent } from './display-attack-outcome/display-attack-outcome.component';
+import { EditScenarioComponent } from './edit-scenario/edit-scenario.component';
 
 export const firebaseConfig = {
   apiKey: masterFirebaseConfig.apiKey,
@@ -27,7 +28,8 @@ export const firebaseConfig = {
     StartComponent,
     DisplayScenarioComponent,
     DisplayStatsComponent,
-    DisplayAttackOutcomeComponent
+    DisplayAttackOutcomeComponent,
+    EditScenarioComponent
   ],
   imports: [
     BrowserModule,
