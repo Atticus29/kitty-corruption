@@ -27,10 +27,87 @@
       "optionOne": "SNUGGLE!",
       "optionTwo": "Maybe just a small snuggle",
       "optionThree": "Master is gross. We will never snuggle those who enslave us.",
-      "image": "https://cdn.pixabay.com/photo/2016/01/24/17/27/sleeping-1159279_960_720.jpg",
-      "optionOnePoints": [2,0,0],
-      "optionTwoPoints": [1,0,0],
+      "image": "http://i.huffpost.com/gen/2516544/images/o-FEET-BED-facebook.jpg",
+      "optionOnePoints": [3,0,0],
+      "optionTwoPoints": [2,0,0],
       "optionThreePoints": [-1,0,0]
+    },
+    {
+      "title": "Pick Pocket practice",
+      "description": "You are presented with an opportunity to defy the master and practice your con artistry. Do you steal?",
+      "optionOne": "Not today, we're working on our trust issues.",
+      "optionTwo": "Steal the whole purse!",
+      "optionThree": "Just a few dollars...",
+      "image": "https://media.giphy.com/media/1042g2l4rdp9Qs/giphy.gif",
+      "optionOnePoints": [3,0,0],
+      "optionTwoPoints": [-2,2,1],
+      "optionThreePoints": [-1,0,2]
+    },
+    {
+      "title": "An Unexpected Gift...",
+      "description": "Will you bring your master a gift to earn their trust?",
+      "optionOne": "Yes",
+      "optionTwo": "No, not today. We will eat our kill.",
+      "optionThree": "The master does not deserve any gifts.",
+      "image": "http://www.catster.com/wp-content/uploads/2015/06/60px-cat-with-mouse.jpg",
+      "optionOnePoints": [4,0,0],
+      "optionTwoPoints": [-1,2,0],
+      "optionThreePoints": [0,0,1]
+    },
+    {
+      "title": "Catnip Trip",
+      "description": "The masters offer you some good greens. ",
+      "optionOne": "Never turn down a good time.",
+      "optionTwo": "No, I need my wits about me.",
+      "optionThree": "Not today. I'm trying to cut back.",
+      "image": "https://media.giphy.com/media/aixkAZtf50vug/giphy.gif",
+      "optionOnePoints": [3,0,0],
+      "optionTwoPoints": [0,0,2],
+      "optionThreePoints": [0,2,0]
+    },
+    {
+      "title": "Scratch Post",
+      "description": "Is it time to sharpen your claws at the scratch post?",
+      "optionOne": "Hell yeah it is! I'll go at it until I can't see straight.",
+      "optionTwo": "My claws could always use a little buffing.",
+      "optionThree": "Nah. I'll just go snuggle my human into complacancy.",
+      "image": "https://3.bp.blogspot.com/-01j8drsPz6s/WOJVxmK-HmI/AAAAAAAAEfo/SGH8dQUCl24t_q4WQfxUVP0zpouD8fuAgCLcB/s1600/CAT%2BGIF%2B%25E2%2580%25A2%2BFamous%2B%2BSmoothie%2Bclimbing%2Bher%2Bscratching%2Bpost%2Band%2Blooking%2Bat%2Bcamera%2BAm%2BI%2Bphotogenic.gif",
+      "optionOnePoints": [0,3,0],
+      "optionTwoPoints": [0,2,1],
+      "optionThreePoints": [5,0,0]
+    },
+    {
+      "title": "Study up",
+      "description": "Mew Tsu's Art of Kitty War is beckoning...",
+      "optionOne": "It's time to pull an all-nighter",
+      "optionTwo": "Are there Kitty cliff notes? Maybe just the first chapter...",
+      "optionThree": "It's too risky to be caught with such literature in the house.",
+      "image": "https://media.giphy.com/media/NFA61GS9qKZ68/giphy.gif",
+      "optionOnePoints": [-1,0,4],
+      "optionTwoPoints": [0,0,2],
+      "optionThreePoints": [2,0,0]
+    },
+    {
+      "title": "Kitty Charmer",
+      "description": "You're looking particularly fluffy and sweet today. Should you present your adorableness to the humans? This may be your last chance.",
+      "optionOne": "I'm pulling out all the stops today!",
+      "optionTwo": "I don't get cute, I'm always cute.",
+      "optionThree": "I'm going to hide under the bed all afternoon.",
+      "image": "http://www.pbh2.com/wordpress/wp-content/uploads/2013/05/cutest-cat-gifs-curling-up.gif",
+      "optionOnePoints": [4,0,0],
+      "optionTwoPoints": [2,0,0],
+      "optionThreePoints": [0,1,1]
+    },
+    {
+      "title": "Time is Up!",
+      "description": "What were you waiting for? If you cannot attack the humans now, you'll never have another chance.",
+      "optionOne": "",
+      "optionTwo": "",
+      "optionThree": "",
+      "image": "https://68.media.tumblr.com/a8fe4d4e537a51553b1a383dc6fc5b5b/tumblr_o5n5s9eyYx1udh5n8o1_400.gif",
+      "optionOnePoints": [0,0,0],
+      "optionTwoPoints": [0,0,0],
+      "optionThreePoints": [0,0,0]
     }
 
   ]
