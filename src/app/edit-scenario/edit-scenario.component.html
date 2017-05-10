@@ -2,31 +2,27 @@
     <form class="col s12">
       <div class="row">
         <div class="input-field col s12">
-          <input placeholder="Placeholder" id="title" type="text" class="validate">
-          <label for="title">Scenario Title:</label>
+          <input name="title" [(ngModel)]="selectedScenario.title" placeholder="Scenario Title:" id="title" type="text" class="validate">
+          <label for="title"></label>
         </div>
       </div>
       <div class="row">
         <div class="input-field col s12">
-          <textarea id="description" class="materialize-textarea"></textarea>
-          <label for="description">Scenario Description:</label>
+          <textarea name="description" [(ngModel)]="selectedScenario.description" placeholder=" Scenario Description:" id="description" class="materialize-textarea">{{selectedScenario.description}}</textarea>
         </div>
       </div>
       <div class="row">
         <div class="input-field col s12">
-          <input id="optionOne" type="text" class="validate">
-          <label for="optionOne">Option 1:</label>
-          <input id="optionTwo" type="text" class="validate">
-          <label for="optionTwo">Option 2:</label>
-          <input id="optionThree" type="text" class="validate">
-          <label for="optionThree">Option 3:</label>
+          <input name="optionOne" [(ngModel)]="selectedScenario.optionOne" placeholder="Option 1: " id="optionOne" type="text" class="validate">
+          <input name="OptionTwo" [(ngModel)]="selectedScenario.optionTwo" placeholder="Option 2: " id="optionTwo" type="text" class="validate">
+          <input name="OptionThree" [(ngModel)]="selectedScenario.optionThree" placeholder="Option 3: " id="optionThree" type="text" class="validate">
         </div>
       </div>
       <div class="row">
           <div class="input-field cols12">
-            <input id="imageURL" type="url" class="validate">
-            <label for="imageURL" data-error="wrong" data-success="right">Image URL</label>
+            <input name="imageURL" [(ngModel)]="selectedScenario.imageURL" placeholder="Image URL: " id="imageURL" type="url" class="validate" required>
           </div>
       </div>
+      <a (click) = "submitChangesButtonClicked()" class="waves-effect waves-light btn">Submit</a>
     </form>
   </div>

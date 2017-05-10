@@ -6,7 +6,7 @@ import { AngularFireDatabase, FirebaseListObservable} from 'angularfire2/databas
 export class ScenarioService {
   scenarios: FirebaseListObservable<any[]>;
 
-  constructor(private database: AngularFireDatabase) {
+  constructor(public database: AngularFireDatabase) {
     this.scenarios = database.list('scenarios');
  }
 

@@ -14,6 +14,7 @@ import {CatService} from './cat.service';
 import { DisplayStatsComponent } from './display-stats/display-stats.component';
 import { DisplayAttackOutcomeComponent } from './display-attack-outcome/display-attack-outcome.component';
 import { EditScenarioComponent } from './edit-scenario/edit-scenario.component';
+import { AdminComponent } from './admin/admin.component';
 
 export const firebaseConfig = {
   apiKey: masterFirebaseConfig.apiKey,
@@ -29,7 +30,8 @@ export const firebaseConfig = {
     DisplayScenarioComponent,
     DisplayStatsComponent,
     DisplayAttackOutcomeComponent,
-    EditScenarioComponent
+    EditScenarioComponent,
+    AdminComponent
   ],
   imports: [
     BrowserModule,

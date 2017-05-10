@@ -11,7 +11,7 @@ import { Router } from '@angular/router';
 export class DisplayStatsComponent implements OnInit {
   catToDisplay;
 
-  constructor(private catService: CatService, private router: Router) { }
+  constructor(public catService: CatService, public router: Router) { }
 
   ngOnInit() {
     this.catToDisplay = this.catService.catChampion;
